@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container-main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 350px;
+  width: 800px;
+}
+.container-secundary {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 375px;
+}
+.img {
+  background-image: url(./image-header-desktop.jpg);
+  height: 100%;
+  width: 424px;
+  transition: all 0.5s ease-out;
+}
+.paragraph1 {
+  margin-top: 50px;
+}
+.ultimo-container {
+  display: flex;
+  justify-content: space-around;
+}

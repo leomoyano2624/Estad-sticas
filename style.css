@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #090b1a;
+}
+.container-main {
+  width: 80%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #1b1938;
+  margin: 20px auto;
+  height: 603px;
+}
+.container-img {
+  background-color: #aa5cdb;
+}
+.img {
+  background-image: url(./image-header-mobile.jpg);
+  width: 100%;
+  height: 220px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
+  transition: all 0.5s ease-out;
+  min-width: 375px;
+}
+.img:hover {
+  background-size: 120%;
+  cursor: pointer;
+}
+.container-secundary {
+  padding: 0 40px;
+  text-align: center;
+  min-width: 300px;
+}
+.introduction {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.cantidad {
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.letter-small {
+  font-family: "Lexend Deca", sans-serif;
+  color: #cccccccc;
+  font-size: 1rem;
+}
+.paragraph1 {
+  color: white;
+  font-size: 2rem;
+  padding: 6px;
+  margin-top: 20px;
+}
+.paragraph2 {
+  color: #aa5cdb;
+  text-decoration: none;
+}
+.paragraph2:hover {
+  color: #8044a5;
+}
+.paragraph3 {
+  line-height: 17px;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+.companies:hover {
+  color: #ffffffd2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.templates:hover {
+  text-decoration: underline;
+  color: #ffffffd2;
+  cursor: pointer;
+}
+.queries:hover {
+  text-decoration: underline;
+  color: #ffffffd2;
+  cursor: pointer;
+}
